@@ -3,7 +3,6 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    useRouteMatch
 } from "react-router-dom";
 import Navbar from '../Components/seller-section/Navbar';
 import DataRuangan from './seller-section/DataRuangan';
@@ -15,8 +14,6 @@ import TransaksiMasuk from './seller-section/TransaksiMasuk';
 import Ulasan from './seller-section/Ulasan';
 
 function RouterPages(props) {
-    // let { path, url } = useRouteMatch();
-
     return (
         <div>
             <Router>
