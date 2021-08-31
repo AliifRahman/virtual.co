@@ -1,0 +1,13 @@
+/* YOUR CUSTOM CSS */
+#myAreaChart {
+    margin:45px 0 15px 0;
+}
+
+.css-1okebmr-indicatorSeparator {
+    width: 0 !important;
+}
+
+.modal-cardroom {
+    height: 500px; 
+    overflow-y: auto;
+}
